@@ -12,7 +12,7 @@ function App() {
       <UserAge />
       <ChoosePet />
       <Food />
-      <RatePhoto totalStars ={5} />
+      <RatePhoto totalStars ={10} />
     </div>
   );
 }
