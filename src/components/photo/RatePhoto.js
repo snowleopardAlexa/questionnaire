@@ -13,7 +13,7 @@ function Star({ selected = false, onSelect }) {
     return <FaStar color={selected ? "red" : "grey"} onClick={onSelect} />;
 }
 
-// create function that shows stars in the array and displays text 0-5 number of stars.
+// create function that shows stars in the array and displays text 0-10 number of stars.
 // the text must change, write state here
 function RatePhotos({ totalStars }) {
     const [selectedStars, setSelectedStars ] = useState(0);
