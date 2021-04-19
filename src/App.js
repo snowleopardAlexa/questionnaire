@@ -5,7 +5,8 @@ import {
   Home,
   About,
   Events,
-  Contact
+  Contact,
+  Whoops
 } from './components/pages/Pages';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <Route path="/about" element={<About />}/>
      <Route path="/events" element={<Events />}/>
      <Route path="/contact" element={<Contact />}/>
+     <Route path="*" element={<Whoops />}/>
     </Routes>
     </div>
   );
