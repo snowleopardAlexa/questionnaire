@@ -18,6 +18,17 @@ function App() {
      <Route path="/events" element={<Events />}/>
      <Route path="/contact" element={<Contact />}/>
     </Routes>
+
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Questionnaire</h1>
+      <UserAge />
+      <ChoosePet />
+      <Food />
+      <RatePhoto totalStars ={10} />
+      <Form />
     </div>
   );
 }
