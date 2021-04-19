@@ -8,6 +8,7 @@ function Checkbox() {
 
   return (
       <>
+      <h2>Checkbox</h2>
         <input 
           type="checkbox" 
           value={checked} 
