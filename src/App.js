@@ -14,7 +14,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <>
     <h2>Questionnaire</h2>
     <Routes>
      <Route path="/" element={<Home />}/>
@@ -27,18 +27,11 @@ function App() {
      <Route path="/contact" element={<Contact />}/>
      <Route path="*" element={<Whoops />}/>
     </Routes>
-
-
-function App() {
-  return (
-    <div className="App">
-      <h1>Questionnaire</h1>
-      <UserAge />
       <ChoosePet />
       <Food />
       <RatePhoto totalStars ={10} />
       <Form />
-    </div>
+      </>
   );
 }
 
